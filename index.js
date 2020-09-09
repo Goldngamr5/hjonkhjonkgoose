@@ -1,7 +1,6 @@
 const Discord = require("discord.js")
 const fs = require("fs")
 const client = new Discord.Client()
-require("dotenv").config()
 
 fs.readdir("./events/", (err, files) => {
     files.forEach((file) => {
