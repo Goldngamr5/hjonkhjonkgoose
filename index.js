@@ -338,4 +338,4 @@ client.on("message", (msg) => {
     msg.reply("yep")
   }
 })
-client.login("NzUyNjcwMzc3Njk5ODM1OTQ1.X1bA6Q.a1sfeb_Id07U58_9hu6Lr1F1NZM")
+client.login(process.env.BOT_TOKEN)
